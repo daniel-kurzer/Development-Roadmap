@@ -1,0 +1,92 @@
+* {	
+    margin:0;	
+    padding:0;
+    min-height: 100%;
+    
+}
+
+body{
+	background: linear-gradient(45deg, rgb(8, 234, 215), rgb(104, 102, 102), rgb(8, 234, 215));
+	color:rgb(215, 212, 212);
+	font-family: 'Gloria Hallelujah', cursive;	
+	font-size:18px;
+}
+
+
+/*HEADER*/
+h1 {
+    font-size: 60px;
+    text-align: center;
+    min-width: 100vw;
+}
+
+h2{	
+    font-size:15px;	
+    margin-top: 70px;
+    margin-bottom:30px;
+    text-align: center;
+    min-width: 100vw;
+}
+a {
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#78e7d1;
+}
+
+#header-check {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 90px;
+}
+
+/*WRAPPER*/
+#wrapper{ 
+    margin: 40px auto 0;
+}
+#wrapper > div {	
+    margin-bottom:10px;	
+}
+
+/*CHECKBOX*/
+
+.checkbox-align {
+    margin-left: 640px;
+    
+}
+
+input { 
+    display:none; 
+}
+
+label div{
+	width:23px;
+	height:23px;
+	display:inline-block;
+	border:2px solid #fff;
+	text-align:center;
+	line-height:20px;
+	margin-right:6px;	
+	border-radius:3px;
+	cursor:pointer;	
+}
+
+label i { 
+    font-size:16px;	
+    opacity:0; 
+}
+
+label:hover div { 
+    background:#16a085; 
+}
+
+input:checked+label i { 
+    opacity:1; 
+}
+
+input:checked+label div { 
+    background:#16a085; 
+}
